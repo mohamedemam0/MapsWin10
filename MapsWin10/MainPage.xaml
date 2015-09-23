@@ -1,0 +1,17 @@
+﻿<Page
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MapsWin10"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:Maps="using:Windows.UI.Xaml.Controls.Maps"
+    x:Class="MapsWin10.MainPage"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" x:Name="content">
+
+        <Maps:MapControl x:Name="myMap" ZoomInteractionMode="Auto"/>
+        <Image x:Name="pin" Width="30" Stretch="Uniform" Height="30" Source="http://webpop.github.io/jquery.pin/images/pin.png"/>
+
+    </Grid>
+</Page>
